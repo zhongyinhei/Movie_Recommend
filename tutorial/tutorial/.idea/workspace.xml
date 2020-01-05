@@ -2,11 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8d866d3-0ff4-4a07-9d5c-fe129a0bfc16" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/.idea/cnblogSpider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/cnblogSpider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/cnblogSpider/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/cnblogSpider/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/cnblogSpider/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/cnblogSpider/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/cnblogSpider/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/cnblogSpider/spiders/demo_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cnblogSpider/scrapy.cfg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd3a985f-fe73-42ec-b606-1bb57e78d70a.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +59,18 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="movie_recommend: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="movie_recommend@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="movie_recommend: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="movie: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tutorial" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -100,17 +128,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2576321b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2576321b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1301210f" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -129,6 +147,7 @@
       <workItem from="1573329131908" duration="265000" />
       <workItem from="1573329414857" duration="2894000" />
       <workItem from="1578126480690" duration="3112000" />
+      <workItem from="1578142915576" duration="2247000" />
     </task>
     <servers />
   </component>
@@ -140,7 +159,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

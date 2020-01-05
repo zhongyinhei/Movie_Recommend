@@ -6,13 +6,14 @@ class ArticleSpider(scrapy.Spider):
 
     def start_requests(self):
         urls = [
-            'https://www.cnblogs.com/yinminbo/p/12020198.html'
-            'https://www.cnblogs.com/yinminbo/p/12014453.html']
+            'https://www.cnblogs.com/yinminbo/p/12020198.html',            # 1.2、Answer：web crawler question 2
+            'https://www.cnblogs.com/yinminbo/p/12050239.html',            # 单步调试调试leetcode代码
+            'https://www.cnblogs.com/yinminbo/p/12034265.html']
         return [scrapy.Request(url=url, callback=self.parse)
                 for url in urls]
 
     def parse(self, response):
         url = response.url
-        title = response.css('title').extract_first()
+        title = response.css('title').extract()
         print('url is : {}'.format(url))
         print('title is {}'.format(title))

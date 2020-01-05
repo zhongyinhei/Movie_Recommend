@@ -10,12 +10,12 @@ from tutorial.items import TutorialItem
 
 class TutorialPipeline(object):
     def __init__(self):
-        self.conn = mysql.connector.connect(user='root', password='123456', database='how2java')
+        self.conn = mysql.connector.connect(user='root', password=',root&ymbABM0id', database='movie_recommend')
         self.cursor = self.conn.cursor()
 
     def process_item(self, item, spider):
         insert_sql = """
-                               insert into movie(movieid, moviename, directors, actors, posterPath, plotSummary, averageratings, numRatings)
+                               insert into movie.(movieid, moviename, directors, actors, posterPath, plotSummary, averageratings, numRatings)
                                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
                            """
         self.cursor.execute(insert_sql, (
