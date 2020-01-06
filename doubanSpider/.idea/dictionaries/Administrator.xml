@@ -1,10 +1,14 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Administrator">
     <words>
+      <w>asyn</w>
       <w>autothrottle</w>
+      <w>createtime</w>
       <w>douban</w>
       <w>doubanspider</w>
       <w>httpcache</w>
+      <w>khtml</w>
+      <w>middlewares</w>
       <w>robotstxt</w>
       <w>scrapy</w>
       <w>telnetconsole</w>
